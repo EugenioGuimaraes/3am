@@ -1,0 +1,86 @@
+body{
+    color: white;
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#principal{
+    width: 99%;
+    margin: 20px auto;
+    margin-bottom: 0;
+}
+
+.header-top{
+    height: 120px;
+    background-color: #414149e5;
+    position: relative;
+}
+
+.logo{
+    height: 130px;
+    width: 140px;
+    margin: 0px 0 0 135px;
+}
+
+.header-nav{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px 0 0;
+    padding: 38px;
+}
+.header-nav a{
+    color: #9ea3aa;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color .5s linear;
+}
+
+.header-nav a:hover{
+    color: white;
+}
+
+.fundo{
+    width: 100%;
+}
+
+.about{
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.about h1{
+    font-size: 36px;
+    color: #cecece;
+}
+
+.about p{
+    font-size: 16px;
+    line-height: 2;
+    color: #cecece;
+}
+
+.gallery{
+    padding: 0 100px 50px 100px;
+    color: #cecece;
+}
+.gallery-card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
